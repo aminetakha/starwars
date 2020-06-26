@@ -5,14 +5,11 @@
   margin: 30px auto;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 8px 20px;
 }
 
-.Detail div {
-  flex: 1;
-}
-
-.Detail div:first-child p {
+.Detail .Info p {
   text-align: left;
 }
 
@@ -36,8 +33,20 @@
     align-items: center;
     padding: 8px 0px;
   }
-
   .Detail img {
     margin: 20px;
+  }
+}
+
+/* 356px */
+@media (max-width: 356px) {
+  .Detail .Info p {
+    font-size: 14px;
+  }
+  .Detail img {
+    margin: 20px;
+  }
+  .logo {
+    width: 150px;
   }
 }

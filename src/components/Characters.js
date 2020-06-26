@@ -2,6 +2,7 @@ import React, { useState, useEffect, Fragment } from "react";
 import axios from "axios";
 import Character from "./Character/Character";
 import Pagination from "./Pagination";
+import styles from "./Character/Character.module.css";
 
 const Characters = () => {
   const [data, setData] = useState([]);
@@ -32,6 +33,7 @@ const Characters = () => {
       <img
         src={require("../assets/starwars.png")}
         style={{ marginTop: "40px" }}
+        className={styles.logo}
       />
       <Character data={silceData} loading={loading} currentPage={currentPage} />
       <Pagination
