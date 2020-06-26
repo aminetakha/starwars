@@ -1,0 +1,43 @@
+.Detail {
+  border: 1px solid gray;
+  border-radius: 12px;
+  width: 60%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+}
+
+.Detail div {
+  flex: 1;
+}
+
+.Detail div:first-child p {
+  text-align: left;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.Detail p {
+  font-size: 17px;
+}
+
+/* 744px */
+@media (max-width: 744px) {
+  .Detail {
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0px;
+  }
+
+  .Detail img {
+    margin: 20px;
+  }
+}

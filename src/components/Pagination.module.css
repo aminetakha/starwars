@@ -1,0 +1,17 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.list a {
+  width: 20px;
+}
+
+.list a:hover {
+  cursor: pointer;
+}
+
+.list a:first-child {
+  margin-right: 10px;
+}
